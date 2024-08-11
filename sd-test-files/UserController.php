@@ -49,9 +49,9 @@ class UserController extends AbstractController
     {
         $connectionParams = [
             'dbname' => 'symfony',
-            'user' => 'symfony',
-            'password' => '',
-            'host' => 'mariadb',
+            'user' => 'if0_37082762',
+            'password' => 'RZAHaUr1iDz',
+            'host' => 'sql107.infinityfree.com',
             'driver' => 'pdo_mysql',
         ];
         return DriverManager::getConnection($connectionParams);
